@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	background: #2b2b2f;
+	color: white;
+	font-size: 2.5rem;
+}
+
+body, html {
+	height: 100%;
+}
+
+header {
+	background: url('../images/SheilaNoGenderBlur.jpg');
+}
+
+header, .aboutMe {
+	width: 100%;
+	height: 70vh;
+	text-align: center;
+	background-size: 130%;
+	display: flex;
+	flex-direction: column;
+	text-shadow: 2px 2px 5px #000000, 2px 2px 2px #333333;
+}
+
+h1 {
+	margin: 30% auto 0 auto;
+}
+
+h2 {
+	font-size: 1em;
+	margin: 0 auto auto;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+hr {
+	width: 70vw;
+}
+
+.gallery {
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.gallery img {
+	width: 29vw;
+	margin: 10px;
+	border-radius: 7px;
+}
+
+.parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.aboutMe {
+	background-image: url('../images/Sheila.jpg');
+}
