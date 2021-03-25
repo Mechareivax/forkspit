@@ -28,6 +28,13 @@ h1 {
 	margin: 30% auto 0 auto;
 }
 
+/* this makes it so the header does not continue to grow beyond its borders when the page gets bigger */
+@media screen and (min-width: 900px) { /* 900px happens to be when the page arranges the pictures in threes */
+	h1 {
+		margin: 200px auto 0;
+	}
+}
+
 h2 {
 	font-size: 1em;
 	margin: 0 auto auto;
@@ -50,11 +57,17 @@ hr {
 	width: 70vw;
 }
 
+footer {
+	font-size: 18px;
+	height: 50px;
+	text-align: center;
+}
+
 .gallery {
 	margin: 20px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 .gallery img {
