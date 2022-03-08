@@ -11,7 +11,7 @@ body, html {
 }
 
 header {
-	background: url('../images/image0.jpeg');
+	background: url('./images/image0.jpeg');
 	display: flex;
 	flex-direction: column; /** makes each item flex from top to bottom **/
 }
@@ -105,5 +105,5 @@ footer {
 }
 
 #aboutMe {
-	background-image: url('../images/image0.jpeg');
+	background-image: url('./images/image0.jpeg');
 }
