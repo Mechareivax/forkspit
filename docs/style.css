@@ -13,7 +13,6 @@ body, html {
 header {
 	background: url('./images/image0.jpeg');
 	display: flex;
-	height: 70vh;
 	flex-direction: column; /** makes each item flex from top to bottom **/
 }
 
@@ -50,7 +49,6 @@ a {
 }
 
 nav.navbar {
-	height: 75px;
 	font-size:35px;
 }
 
@@ -116,11 +114,7 @@ h3 a {
 
 .greyBackground {
 	background-color: #000000aa;
-}
-
-#aboutMe {
-	background-image: url('./images/image0.jpeg');
-	height: fit-content;
+	margin-bottom: 20px;
 }
 
 #description {
