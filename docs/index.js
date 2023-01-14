@@ -1,7 +1,7 @@
 const gallery = document.querySelector(".gallery");
 const url = "https://graph.facebook.com/v14.0/"
 const userID = "17841455049842054";
-const accessToken = "EAASZAQFSwPqgBAAS6BeFqAY5wTLtM7lQO6bCDZCp5Q3F9huFJQZBmvbLlpnxrOC0KqKPoXIu5g15dvYyS3Lb14bmFFfyPEhAgSbd01OqDF40avPhfgKZB6f6L9VZBgduYRo32wWlpLwcn1NFN7SBI9UUOxWKZABmgsdOdTY5GUQqM3xMOm4CLs05lVI5n4TPsZD";
+const accessToken = "EAASZAQFSwPqgBANqW8buHs8jSGKGBibSJNZAfMeeZAAFAJ5rqTAh53ebEKDRedZAZCbN1Cb64zrme8dhZB0AUmBg0lb5YAkqom33HdwH0DBF1IJZBQYdt3bQUlH9Hw5hfLHMM8mtH9o5MHHQzYZCL4otQPRjFqjExZCNAHUk0C4emitvZCgQqdc9BT";
 const endpoint = url + userID + '?fields=business_discovery.username(fork_spit){media{id,caption,media_type,media_url,permalink}}&access_token=' + accessToken; 
 
 
