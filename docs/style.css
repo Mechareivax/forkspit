@@ -119,11 +119,10 @@ h3 a {
 
 .underline {
 	text-decoration: underline;
-	transition: color .25s;
 }
 
 a.underline:hover {
-	color: cyan;
+	color: rgb(0, 178, 178);
 }
 
 #description {
